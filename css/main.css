@@ -37,7 +37,7 @@ body {
 	color: #fff;
 }
 h1{
-	font: 18px Arial,Verdana,sans-serif!important;
+	font: 20px Arial,Verdana,sans-serif!important;
 	color: #fff!important;
 }
 
@@ -56,7 +56,7 @@ h1{
 .maian_mnu {
 	background-color: #193346;
 	color: #fff;
-	margin-top: 20px;
+	margin-top: 40px;
 }
 .maian_mnu a {
 	font: 18px Arial, Verdana, sans-serif;
@@ -66,6 +66,7 @@ h1{
 	-webkit-transition: all .25s;
 	-o-transition: all .25s;
 	transition: all .25s;
+	text-decoration: none;
 }
 .maian_mnu a:hover {
 	background-color: #1c2e40;
@@ -80,11 +81,14 @@ h1{
 .top_contacts {
 	background-color: #1c2e40;
 	float: right;
-	font-size: 22px;
+	font-size: 25px;
 	line-height: 53px;
 }
 .top_contacts a:hover {
 	background-color: #193b52;
+}
+.top_contacts a {
+	text-decoration: none;
 }
 .maian_mnu ul li {
 	display: inline-block;
@@ -93,21 +97,40 @@ h1{
 	z-index: 12;
 }
 
-
-.sider_container img {
-	max-width: 100%;
-	margin-top: 20px;
+#carousel{
+    margin-top: 20px;
 }
-.sider_container {
-	position: relative;
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+.carousel-control right{
+	position: absolute;
+	font-size: 28px;
 }
 .next_button, .prev_button {
-	background-color: rgba(255, 255, 255, 0.5);
-	border-radius: 10em;
-	color: #fff;
-	cursor: pointer;
-	font-size: 46px;
-	padding: 0 25px;
+	border: medium none;
+	background-color: transparent;
+	font-size: 25px;
 	position: absolute;
 	top: 40%;
 	z-index: 10;
@@ -117,6 +140,14 @@ h1{
 }
 .prev_button {
 	left: 20px;
+}
+.block1{
+	float: left;
+	margin-top: 30px;
+}
+.block2{
+	float: right;
+	margin-top: 30px;
 }
 section.order  {
 	background-color: #eee;

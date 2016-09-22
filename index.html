@@ -13,14 +13,14 @@
 	<meta name='yandex-verification' content='61a4c69a8d1efb13' />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="shortcut icon" href="img/favicon.png" type="image/png" />
-	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
-	<link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css" />
-	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
-	<link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css" />
-	<link rel="stylesheet" href="css/fonts.css" />
-	<link rel="stylesheet" href="css/main.css" />
-	<link rel="stylesheet" href="css/media.css" />
+	<link rel="shortcut icon" href="img/favicon.png" type="image/png">
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css">
+	<link rel="stylesheet" href="libs/font-awesome-4.2.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css">
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
 </head>
 <body>
 	<header>
@@ -42,96 +42,61 @@
 					        <li><a href="parts.html">Запчасти</a></li>
 					        <li><a href="contacts.html">Контакты</a></li>
 						</ul>
-						<div class="top_contacts"><a href="https://vk.com/lider4g"><i class="fa fa-mobile"></i> Мы Вконтакте</a></div>
+						<div class="top_contacts"><a href="https://vk.com/lider4g"><i class="fa fa-vk"></i> Мы Вконтакте</a></div>
 					</nav>
-					<div class="sider_container">
-						<div class="next_button"><i class="fa fa-angle-right"></i></div>
-						<div class="prev_button"><i class="fa fa-angle-left"></i></div>
-						<div class="carousel">
-							<div class="slide_item"><a class="fancybox" data-fancybox-group="group" href="img/pic1.png"><img src="img/pic1.png" alt="ремонт ноутбуков"/></a></div>
-							<div class="slide_item"><a class="fancybox" data-fancybox-group="group" href="img/pic2.png"><img src="img/pic2.png" alt="alt" /></a></div>
-							<div class="slide_item"><a class="fancybox" data-fancybox-group="group" href="img/pic3.png"><img src="img/pic3.png" alt="alt" /></a></div>
-						</div>
-					</div>
-				</div>
+					
+				</div><!--row-->
 			</div>
 		</div>
 	</header>
-	<section class="order">
+	<div class="container">
+        <div class="col-md-12">
+            <div class="row">
+                <div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+                  <!-- Маркеры слайдов -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel" data-slide-to="1"></li>
+                    <li data-target="#carousel" data-slide-to="2"></li>
+                  </ol>
+ 
+                  <!-- Содержимое слайдов -->
+                  <div class="carousel-inner">
+                    <div class="item active">
+                      <img src="img/pic1.png" alt="...">
+                    </div>
+                     
+                    <div class="item">
+                      <img src="img/pic2.png" alt="...">
+                     </div>
+                     
+                    <div class="item">
+                      <img src="img/pic3.png" alt="...">
+                    </div>
+                  </div>
+ 
+                  <!-- Controls -->
+                  <a class="carousel-control left" href="#carousel" data-slide="prev">
+                    <button class="prev_button"><i class="fa fa-arrow-circle-left"></i></button>
+                  </a>
+                  <a class="carousel-control right" href="#carousel" data-slide="next">
+                    <button class="next_button"><i class="fa fa-arrow-circle-right"></i></button>
+                  </a>
+                </div>
+ 
+            </div>
+        </div>
+    </div>
+    <section class="main_content">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-7">
-					<div class="sell_descr">Самые лучшие приложения для вашего телефона</div>
-				</div>
-				<div class="col-md-5">
-					<div class="sell_right">
-						<a href="#callback" class="button fancybox">Заказать разработку</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="main_content">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8">
-					<div class="content-text">
-						<div class="blog_item">
-							<div class="row">
-								<div class="col-md-12">
-									<h3><a href="//webdesign-master.ru" target="_blank">Заголовок статьи</a></h3>
-								</div>
-								<div class="col-md-4">
-									<a href="//webdesign-master.ru" target="_blank"><img src="http://www.hdpaperz.com/wallpaper/original/canada-winter-moraine-lake-alberta-hd-high-511002.jpg" alt="alt"></a>
-								</div>
-								<div class="col-md-8">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur blanditiis, omnis ipsa sunt aspernatur impedit consequatur quasi, molestiae eos magni, tempora nisi ipsam itaque quas esse aut perspiciatis quia, veniam!</p>
-								</div>
-							</div>
-						</div>
-						<div class="blog_item">
-							<div class="row">
-								<div class="col-md-12">
-									<h3><a href="//webdesign-master.ru" target="_blank">Заголовок статьи</a></h3>
-								</div>
-								<div class="col-md-4">
-									<a href="//webdesign-master.ru" target="_blank"><img src="http://www.hdpaperz.com/wallpaper/original/canada-winter-moraine-lake-alberta-hd-high-511002.jpg" alt="alt"></a>
-								</div>
-								<div class="col-md-8">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur blanditiis, omnis ipsa sunt aspernatur impedit consequatur quasi, molestiae eos magni, tempora nisi ipsam itaque quas esse aut perspiciatis quia, veniam!</p>
-								</div>
-							</div>
-						</div>
-						<div class="blog_item">
-							<div class="row">
-								<div class="col-md-12">
-									<h3><a href="//webdesign-master.ru" target="_blank">Заголовок статьи</a></h3>
-								</div>
-								<div class="col-md-4">
-									<a href="//webdesign-master.ru" target="_blank"><img src="http://www.hdpaperz.com/wallpaper/original/canada-winter-moraine-lake-alberta-hd-high-511002.jpg" alt="alt"></a>
-								</div>
-								<div class="col-md-8">
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur blanditiis, omnis ipsa sunt aspernatur impedit consequatur quasi, molestiae eos magni, tempora nisi ipsam itaque quas esse aut perspiciatis quia, veniam!</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<aside class="right_aside">
-						<ul>
-							<li><a href="#">Lorem ipsum dolor sit.</a></li>
-							<li><a href="#">Repellat sed, illo provident?</a></li>
-							<li><a href="#">Sunt, dolores aperiam nisi.</a></li>
-							<li><a href="#">Itaque magni, aut ducimus.</a></li>
-							<li><a href="#">Dicta consequatur, provident nesciunt?</a></li>
-							<li><a href="#">Nulla quo soluta velit!</a></li>
-							<li><a href="#">Accusamus voluptas minus nemo?</a></li>
-							<li><a href="#">Officia tempore iusto vitae?</a></li>
-							<li><a href="#">Iure odio obcaecati, eius.</a></li>
-							<li><a href="#">Quod in porro, maiores.</a></li>
-						</ul>
-					</aside>
+				<div class="col-md-12">
+				    <div class="block1">
+					    <img src="img/block1.png" alt="ремонт пультов"/>
+				    </div>
+				    <div class="block2">
+					    <img src="img/block2.png" alt="фирмы производители"/>
+			        </div>
 				</div>
 			</div>
 		</div>
@@ -155,7 +120,7 @@
 	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
 	<script src="libs/waypoints/waypoints-1.6.2.min.js"></script>
 	<script src="libs/scrollto/jquery.scrollTo.min.js"></script>
-	<script src="libs/owl-carousel/owl.carousel.min.js"></script>
+	<script src="libs/bootstrap/bootstrap.min.js"></script>
 	<script src="libs/landing-nav/navigation.js"></script>
 	<script src="js/common.js"></script>
 	<!-- Yandex.Metrika counter --><!-- Yandex.Metrika counter --><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter25346996 = new Ya.Metrika({id:25346996, webvisor:true, clickmap:true, trackLinks:true, accurateTrackBounce:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/25346996" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
